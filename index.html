@@ -138,26 +138,32 @@ nav ul li a {
     
     <nav id="navbar">
         <ul>
-          <li><button><a href="https://tgore714.github.io/GoreSync/">Home</a></button></li>
-          <li><button><a href="https://tgore714.github.io/GoreSync/">About</a></button></li>
-          <li><button><a href="https://tgore714.github.io/GoreSync/">My Work</a></button></li>
-          <li><button><a href="https://tgore714.github.io/contact_form/">Contact</a></button></li>
-          <li><button><a href="https://tgore714.github.io/packages/">Services</a></button></li>
+          <li><button><a href="http://tylertgore.com/">Home</a></button></li>
+          <li><button><a href="http://tylertgore.com/">About</a></button></li>
+          <li><button><a href="http://tylertgore.com/">My Work</a></button></li>
+          <li><button><a href="http://tylertgore.com/">Contact</a></button></li>
+          <li><button><a href="http://tylertgore.com/">Services</a></button></li>
         </ul>
       </nav>
     
     <img style="height: 300px; width: 300px; padding: 30px 30px 30px 30px;" src="https://raw.githubusercontent.com/TGore714/contact_form/main/IMG_9054.png" alt="logo">
    
-      <div class="form-background">
-        <h2> &nbsp;&nbsp;&nbsp;&nbsp; Fill Out This Form And I Will Be in Contact With You</h2>
-        <form type="hidden" action="https://formsubmit.co/tylergore11@gmail.com" method="POST" target="_blank">
-            <input class="textbox1" style="background-color: rgb(31, 15, 83)" type="text" name="fname" placeholder="first name" required>
-            <input class="textbox2" style="background-color: rgb(31, 15, 83);" type="text" name="lname" placeholder="last name" required>
-            <textarea class="textbox3" style="background-color: rgb(31, 15, 83);" cols="50" rows="4" type="text" name="info" placeholder="Your Message To Us" required></textarea>
-            <input class="textbox4" style="background-color: rgb(31, 15, 83);" type="email" name="email" placeholder="email" required>
-            <button class="textbox5" style="background-color: rgb(31, 15, 83); color: #FFDB99;" type="submit">Submit</button>
-       </form>
-    </div>
+       <div class="form-background">
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp; Choose Your Package and Schedule a Video Call</h2>
+    <form type="hidden" action="https://formsubmit.co/your-email@example.com" method="POST" target="_blank">
+      <select class="package-selection" name="package" required>
+        <option value="">Select Package</option>
+        <option value="basic">Basic Package</option>
+        <option value="pro">Pro Package</option>
+      </select>
+      <input class="textbox1" style="background-color: rgb(31, 15, 83)" type="text" name="fullname" placeholder="Your Full Name" required>
+      <input class="textbox2" style="background-color: rgb(31, 15, 83);" type="email" name="email" placeholder="Your Email" required>
+      <input class="textbox3" style="background-color: rgb(31, 15, 83);" type="tel" name="phone" placeholder="Your Phone Number" required>
+      <input class="textbox4" style="background-color: rgb(31, 15, 83);" type="datetime-local" name="schedule" required>
+      <textarea class="textbox5" style="background-color: rgb(31, 15, 83);" cols="50" rows="4" name="message" placeholder="Your Message" required></textarea>
+      <button class="submit-button" style="background-color: rgb(31, 15, 83); color: #FFDB99;" type="submit">Submit</button>
+    </form>
+  </div>
 </body>
 </html>
 </DOCTYPE>

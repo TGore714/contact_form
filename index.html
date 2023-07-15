@@ -31,55 +31,27 @@
         border-radius: 20px;       
     }
        
-    .textbox1 {
-     position: relative;
-     top: 20px;
-     left: 150px;
-     width: 300px;
-     height: 40px;
-     border-radius: 10px;
-     color: #FFDB99;
+    /* CSS Styles */
+    .form-background {
+      /* Your existing styles for the form background */
     }
 
-    .textbox2 {
-        position: relative;
-        top: 40px;
-        left: 150px;
-        width: 300px;
-        height: 40px;
-        border-radius: 10px;
-        color: #FFDB99;
+    .textbox1,
+    .textbox2,
+    .textbox3,
+    .textbox4,
+    .textbox5,
+    .submit-button,
+    .package-selection {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: rgb(31, 15, 83);
+      color: #FFF;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
     }
-    
-    .textbox3 {
-        position: relative;
-        top: 60px;
-        left: 150px;
-        width: 300px;
-        height: 70px;
-        border-radius: 10px;
-        color: #FFDB99;
-    }
-
-   .textbox4 {
-    position: relative;
-    top: 80px;
-    left: 150px;
-    width: 300px;
-    height: 40px;
-    border-radius: 10px;
-    color: #FFDB99;
-   }
-
-   .textbox5 {
-    position: relative;
-    top: 100px;
-    left: 150px;
-    width: 300px;
-    height: 40px;
-    border-radius: 10px;
-    color: #FFDB99;
-   }
 
    nav {
   background-color: rgb(31, 15, 83);
@@ -156,12 +128,12 @@ nav ul li a {
         <option value="basic">Basic Package</option>
         <option value="pro">Pro Package</option>
       </select>
-      <input class="textbox1" style="background-color: rgb(31, 15, 83)" type="text" name="fullname" placeholder="Your Full Name" required>
-      <input class="textbox2" style="background-color: rgb(31, 15, 83);" type="email" name="email" placeholder="Your Email" required>
-      <input class="textbox3" style="background-color: rgb(31, 15, 83);" type="tel" name="phone" placeholder="Your Phone Number" required>
-      <input class="textbox4" style="background-color: rgb(31, 15, 83);" type="datetime-local" name="schedule" required>
-      <textarea class="textbox5" style="background-color: rgb(31, 15, 83);" cols="50" rows="4" name="message" placeholder="Your Message" required></textarea>
-      <button class="submit-button" style="background-color: rgb(31, 15, 83); color: #FFDB99;" type="submit">Submit</button>
+      <input class="textbox1" type="text" name="fullname" placeholder="Your Full Name" required>
+      <input class="textbox2" type="email" name="email" placeholder="Your Email" required>
+      <input class="textbox3" type="tel" name="phone" placeholder="Your Phone Number" required>
+      <input class="textbox4" type="datetime-local" name="schedule" required>
+      <textarea class="textbox5" cols="50" rows="4" name="message" placeholder="Your Message" required></textarea>
+      <button class="submit-button" type="submit">Submit</button>
     </form>
   </div>
 </body>
